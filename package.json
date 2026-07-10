@@ -36,7 +36,9 @@
     "examples",
     "assets",
     "README.md",
+    "README.zh-CN.md",
     "LICENSE",
+    "BRAND.md",
     "ATTRIBUTIONS.md",
     "OPEN_SOURCE_CHECKLIST.md"
   ]

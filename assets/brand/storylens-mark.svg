@@ -1,0 +1,12 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">StoryLens Story Comet mark</title>
+  <desc id="desc">A black story comet with a white paper shape, a gold clarity star, and a red thread.</desc>
+  <circle cx="48" cy="46" r="40" fill="#090909"/>
+  <path d="M23.5 56.8C33.2 36.7 51.8 25.8 76.6 23.2C66.5 32.4 60.7 44.8 63.2 56.8C66.6 58.9 70.4 61.8 74.1 65.8C59.5 60.7 42.6 63.2 25.8 73.8C31.1 66.2 30.4 60.8 23.5 56.8Z" fill="#F8F4EA"/>
+  <path d="M33.1 57.3C40 54.8 48.5 54.5 56.6 56.3" stroke="#090909" stroke-width="2.25" stroke-linecap="round"/>
+  <path d="M26.4 71.8C40.7 76.3 58.9 74.2 73.6 66.1" stroke="#090909" stroke-width="2.25" stroke-linecap="round"/>
+  <path d="M75.5 72.1C63.4 83.2 38.6 87.4 18.3 77.4" stroke="#EE1F25" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M18.3 77.4C12.1 74.3 12.9 68.8 20.7 68.4" stroke="#EE1F25" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M72.2 31.5L75.6 39.3L83.4 42.7L75.6 46L72.2 53.8L68.9 46L61.1 42.7L68.9 39.3L72.2 31.5Z" fill="#F5B400"/>
+  <path d="M72.2 36.9L74.1 41.1L78.2 42.7L74.1 44.4L72.2 48.5L70.6 44.4L66.4 42.7L70.6 41.1L72.2 36.9Z" fill="#fff" fill-opacity=".28"/>
+</svg>

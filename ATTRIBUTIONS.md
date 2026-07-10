@@ -13,6 +13,10 @@ The following files are authored by StoryLens and released under the MIT License
 - `data/item-bank.v0.1.json`
 - `examples/maya.md`
 - `README.md`
+- `README.zh-CN.md`
+- `assets/brand/storylens-mark.svg`
+
+Use of the StoryLens name and logo is described separately in `BRAND.md`.
 
 ## Research and Method References
 

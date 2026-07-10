@@ -4,9 +4,11 @@ import path from "node:path";
 const root = process.cwd();
 const requiredFiles = [
   "README.md",
+  "README.zh-CN.md",
   "SKILL.md",
   "LICENSE",
   "ATTRIBUTIONS.md",
+  "BRAND.md",
   "storylens-core.md",
   "flow/core.md",
   "flow/image-prompt.md",
@@ -17,6 +19,7 @@ const requiredFiles = [
   "templates/reading-report.md",
   "templates/share-card.md",
   "examples/maya.md",
+  "assets/brand/storylens-mark.svg",
 ];
 
 const forbiddenPatterns = [
@@ -67,6 +70,9 @@ for (const file of requiredFiles) {
 
 const itemBank = readJson("data/item-bank.v0.1.json");
 const imageManifest = readJson("data/image-manifest.v0.1.json");
+
+checkLocalLinks("README.md");
+checkLocalLinks("README.zh-CN.md");
 
 if (itemBank) {
   if (!Array.isArray(itemBank.items) || itemBank.items.length !== 10) {
@@ -140,4 +146,25 @@ function* walk(dir) {
       yield fullPath;
     }
   }
+}
+
+function checkLocalLinks(relativePath) {
+  const markdown = fs.readFileSync(path.join(root, relativePath), "utf8");
+  const links = [
+    ...[...markdown.matchAll(/\]\(([^)]+)\)/g)].map((match) => match[1]),
+    ...[...markdown.matchAll(/(?:href|src)="([^"]+)"/g)].map((match) => match[1]),
+  ];
+
+  for (const link of new Set(links)) {
+    if (/^(?:https?:|mailto:|#)/.test(link)) continue;
+
+    const target = link.split("#", 1)[0].replace(/^\.\//, "");
+    if (!target) continue;
+
+    if (!fs.existsSync(path.join(root, target))) {
+      fail(`broken local link in ${relativePath}: ${link}`);
+    }
+  }
+
+  pass(`local links resolve in ${relativePath}`);
 }
