@@ -1,0 +1,126 @@
+{
+  "id": "storylens_reading_skill_item_bank_v0_1",
+  "language": "en",
+  "version": "0.1",
+  "recommendedFlow": "core",
+  "positioning": "story-based AI self-understanding reading",
+  "boundaries": [
+    "not a clinical diagnosis",
+    "not therapy",
+    "not a hiring, admissions, eligibility, or crisis tool",
+    "not official MBTI, Jungian, Big Five, PSE, or TAT scoring"
+  ],
+  "flow": [
+    "IMG-01",
+    "IMG-02",
+    "IMG-03",
+    "IMG-04",
+    "STEM-01",
+    "STEM-02",
+    "STEM-03",
+    "REAL-01",
+    "LIFE-01",
+    "CTX-01"
+  ],
+  "items": [
+    {
+      "id": "IMG-01",
+      "type": "image_story",
+      "section": "Image story",
+      "title": "Image story 1",
+      "imageId": "IMG-01",
+      "suggestedImageExposureSeconds": 15,
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Open the image and look at it for about 15 seconds. Then come back here and write a short story from memory.",
+      "helper": "You can include what happened before this moment, who the people are, what they are thinking or feeling, what they want, and what might happen next. No need to describe the image or find a correct answer."
+    },
+    {
+      "id": "IMG-02",
+      "type": "image_story",
+      "section": "Image story",
+      "title": "Image story 2",
+      "imageId": "IMG-02",
+      "suggestedImageExposureSeconds": 15,
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Open the image and look at it for about 15 seconds. Then come back here and write a short story from memory.",
+      "helper": "You can include what happened before this moment, who the people are, what they are thinking or feeling, what they want, and what might happen next. No need to describe the image or find a correct answer."
+    },
+    {
+      "id": "IMG-03",
+      "type": "image_story",
+      "section": "Image story",
+      "title": "Image story 3",
+      "imageId": "IMG-03",
+      "suggestedImageExposureSeconds": 15,
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Open the image and look at it for about 15 seconds. Then come back here and write a short story from memory.",
+      "helper": "You can include what happened before this moment, who the people are, what they are thinking or feeling, what they want, and what might happen next. No need to describe the image or find a correct answer."
+    },
+    {
+      "id": "IMG-04",
+      "type": "image_story",
+      "section": "Image story",
+      "title": "Image story 4",
+      "imageId": "IMG-04",
+      "suggestedImageExposureSeconds": 15,
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Open the image and look at it for about 15 seconds. Then come back here and write a short story from memory.",
+      "helper": "You can include what happened before this moment, who the people are, what they are thinking or feeling, what they want, and what might happen next. No need to describe the image or find a correct answer."
+    },
+    {
+      "id": "STEM-01",
+      "type": "story_stem",
+      "section": "Story stem",
+      "title": "Story stem 1",
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "A few people are sitting around a table, eating and talking. When Alex reaches for something nearby, Alex accidentally knocks over a cup. Water runs across the table and gets another person's papers wet. The room suddenly goes quiet.",
+      "helper": "Continue the story so it has development and an ending. You can decide what everyone thinks, feels, and does next."
+    },
+    {
+      "id": "STEM-02",
+      "type": "story_stem",
+      "section": "Story stem",
+      "title": "Story stem 2",
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Several people are standing by the door, ready to leave, and time is running short. But the keys that were by the door are missing. Someone says the last time they saw the keys, Alex was near the table. Everyone stops and starts looking.",
+      "helper": "Continue the story. There is no correct outcome; follow the scene where it naturally goes."
+    },
+    {
+      "id": "STEM-03",
+      "type": "story_stem",
+      "section": "Story stem",
+      "title": "Story stem 3",
+      "suggestedAnswerLength": "40-90 words",
+      "prompt": "Alex comes over to the table where they usually sit and sees that everyone is already seated. The place where Alex normally sits has someone else's bag on it. The people at the table keep talking. One person notices Alex, glances aside, but does not say anything right away.",
+      "helper": "Continue the story with what happens next and how the scene resolves, if it resolves."
+    },
+    {
+      "id": "REAL-01",
+      "type": "real_scene",
+      "section": "Real scene",
+      "title": "Real scene",
+      "suggestedAnswerLength": "50-120 words",
+      "prompt": "Think of a real scene that still comes back to you sometimes. It does not have to be a major life event or dramatic. It could be a conversation, a time of waiting, a moment of being understood or not understood, a failure, a sudden realization, or something ordinary that somehow stayed with you.",
+      "helper": "Write it like a scene from a film: where were you, who was there, what happened, what did you notice, and why do you think it stayed?",
+      "safety": "Choose something you are comfortable writing about. You do not need to describe trauma details, and you can skip this prompt."
+    },
+    {
+      "id": "LIFE-01",
+      "type": "life_chapter",
+      "section": "Current and future chapter",
+      "title": "Current and future chapter",
+      "suggestedAnswerLength": "60-140 words",
+      "prompt": "If your current life were a chapter in a book, what would this chapter be called?\n\nIn this chapter, what are three recurring threads? They might be things you are trying to move forward, things you want to protect, problems that keep returning, abilities you are learning, or states you want to avoid.\n\nNow imagine turning the book one year forward. In one possible direction, things are not perfect, but they move toward something you would be glad to see. What is one concrete image from that future?\n\nIn another possible direction, something remains unaddressed, or a pattern keeps repeating. What is one concrete image from that future?\n\nIf you could take one small action, what would make the first direction more likely, or the second direction less likely?",
+      "helper": "You can answer freely in paragraphs. This is intentionally open-ended; it does not need to be neatly structured."
+    },
+    {
+      "id": "CTX-01",
+      "type": "context_note",
+      "section": "Context note",
+      "title": "For a careful reader",
+      "suggestedAnswerLength": "Optional, one sentence",
+      "prompt": "If someone carefully read everything you just wrote, what would you want them not to misunderstand?",
+      "helper": "You can also mention which prompt felt closest to you, which felt least like you, or any background that would help the AI read your answers more carefully."
+    }
+  ]
+}

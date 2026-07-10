@@ -1,0 +1,43 @@
+{
+  "name": "storylens-reading-skill",
+  "version": "0.1.0",
+  "description": "Story-based AI self-understanding skill: guide open-ended stories into an evidence-based personality reading.",
+  "type": "module",
+  "private": false,
+  "homepage": "https://storylens.me/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1zhangyy1/storylens-reading-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1zhangyy1/storylens-reading-skill/issues"
+  },
+  "keywords": [
+    "ai",
+    "self-understanding",
+    "personality",
+    "storytelling",
+    "prompt-engineering",
+    "ai-skill",
+    "reflection",
+    "open-ended-assessment"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "storylens-core.md",
+    "flow",
+    "data",
+    "templates",
+    "examples",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "ATTRIBUTIONS.md",
+    "OPEN_SOURCE_CHECKLIST.md"
+  ]
+}

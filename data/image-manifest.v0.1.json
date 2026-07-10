@@ -1,0 +1,88 @@
+{
+  "id": "storylens_reading_skill_image_manifest_v0_1",
+  "version": "0.1",
+  "notes": [
+    "Use neutral image IDs with users.",
+    "Do not reveal internal construct labels.",
+    "Prefer local image display when available; otherwise use publicUrl or fallbackUrl.",
+    "Ask the user to look for about 15 seconds, then return to the chat and write from memory.",
+    "See ATTRIBUTIONS.md for full source and license notes."
+  ],
+  "sourceProject": {
+    "name": "Images for the Picture Story Exercise (PSE)",
+    "url": "https://osf.io/pqckn/",
+    "normTableUrl": "https://osf.io/download/fxrqk/",
+    "normWikiUrl": "https://osf.io/pqckn/wiki/Norm%20values%20for%20each%20picture/"
+  },
+  "images": [
+    {
+      "id": "IMG-01",
+      "title": "Image story 1",
+      "localPath": "../assets/images/stimuli/IMG-01.jpg",
+      "publicUrl": "https://storylens.me/assets/stimuli/optimized/newpic22-1600.jpg",
+      "fallbackUrl": "https://storylens.me/assets/stimuli/newpic22.jpg",
+      "sourceAsset": "public/assets/stimuli/optimized/newpic22-1600.jpg",
+      "osfSourceFile": "newpic22.jpg",
+      "osfDownloadUrl": "https://osf.io/download/xnygk/",
+      "source": "OSF Images for the Picture Story Exercise; Pexels",
+      "license": "CC0"
+    },
+    {
+      "id": "IMG-02",
+      "title": "Image story 2",
+      "localPath": "../assets/images/stimuli/IMG-02.jpg",
+      "publicUrl": "https://storylens.me/assets/stimuli/optimized/newpic24-1600.jpg",
+      "fallbackUrl": "https://storylens.me/assets/stimuli/newpic24.jpg",
+      "sourceAsset": "public/assets/stimuli/optimized/newpic24-1600.jpg",
+      "osfSourceFile": "newpic24.jpg",
+      "osfDownloadUrl": "https://osf.io/download/emqjs/",
+      "source": "OSF Images for the Picture Story Exercise; Pexels",
+      "license": "CC0"
+    },
+    {
+      "id": "IMG-03",
+      "title": "Image story 3",
+      "localPath": "../assets/images/stimuli/IMG-03.jpg",
+      "publicUrl": "https://storylens.me/assets/stimuli/optimized/newpic12-1600.jpg",
+      "fallbackUrl": "https://storylens.me/assets/stimuli/newpic12.jpg",
+      "sourceAsset": "public/assets/stimuli/optimized/newpic12-1600.jpg",
+      "osfSourceFile": "newpic12.jpg",
+      "osfDownloadUrl": "https://osf.io/download/9n3fs/",
+      "source": "OSF Images for the Picture Story Exercise; Flickr",
+      "license": "CC-BY",
+      "attribution": "Pete Lewis / Department for International Development (UK), via Flickr"
+    },
+    {
+      "id": "IMG-04",
+      "title": "Image story 4",
+      "localPath": "../assets/images/stimuli/IMG-04.jpg",
+      "publicUrl": "https://storylens.me/assets/stimuli/optimized/newpic10-1600.jpg",
+      "fallbackUrl": "https://storylens.me/assets/stimuli/newpic10.jpg",
+      "sourceAsset": "public/assets/stimuli/optimized/newpic10-1600.jpg",
+      "osfSourceFile": "newpic10.jpg",
+      "osfDownloadUrl": "https://osf.io/download/qx796/",
+      "source": "OSF Images for the Picture Story Exercise; Flickr / National Media Museum",
+      "license": "public domain"
+    }
+  ],
+  "shareExamples": [
+    {
+      "id": "gentle-momentum-builder",
+      "title": "Gentle Momentum Builder",
+      "localPath": "../assets/images/share-examples/gentle-momentum-builder.jpg",
+      "sourceAsset": "public/assets/generated/optimized/storylens-share-concept-gentle-momentum-builder-v1-900.jpg"
+    },
+    {
+      "id": "quiet-pattern-mapper",
+      "title": "Quiet Pattern Mapper",
+      "localPath": "../assets/images/share-examples/quiet-pattern-mapper.jpg",
+      "sourceAsset": "public/assets/generated/optimized/storylens-share-concept-quiet-pattern-mapper-v1-900.jpg"
+    },
+    {
+      "id": "warm-boundary-keeper",
+      "title": "Warm Boundary Keeper",
+      "localPath": "../assets/images/share-examples/warm-boundary-keeper.jpg",
+      "sourceAsset": "public/assets/generated/optimized/storylens-share-concept-warm-boundary-keeper-v1-900.jpg"
+    }
+  ]
+}
