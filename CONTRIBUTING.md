@@ -10,7 +10,7 @@ This project is intentionally small. The main standard is: make AI self-understa
 - Better safety and privacy boundaries.
 - Better evidence and uncertainty handling in the reading template.
 - Better attribution and source documentation.
-- Bug fixes in manifests, paths, or package checks.
+- Bug fixes in manifests, paths, or instructions.
 
 ## Contributions To Avoid
 
@@ -22,10 +22,4 @@ This project is intentionally small. The main standard is: make AI self-understa
 
 ## Before Opening A Pull Request
 
-Run:
-
-```bash
-npm test
-```
-
-The check validates required files, JSON structure, local image paths, obvious secret patterns, and hidden image metadata strings.
+Keep changes focused, preserve source attribution, and make sure every referenced file or image path still resolves.

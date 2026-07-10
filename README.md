@@ -24,7 +24,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/1zhangyy1/storylens-reading-skill/actions/workflows/ci.yml"><img alt="Build status" src="https://github.com/1zhangyy1/storylens-reading-skill/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Version 0.1.0" src="https://img.shields.io/badge/version-0.1.0-090909">
   <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-090909"></a>
   <a href="https://storylens.me/"><img alt="StoryLens website" src="https://img.shields.io/badge/website-storylens.me-F5B400?labelColor=090909"></a>
@@ -36,7 +35,7 @@ StoryLens gives an AI assistant something richer than quiz scores to work with: 
 
 The skill guides a person through image stories, everyday scenes, a real memory, and a future reflection. It then organizes the answers into a clean material packet and produces a careful reading of recurring motives, relationship patterns, pressure responses, and type-like clues.
 
-It is not a loose prompt collection. It is a complete, inspectable flow with a neutral item bank, bundled image stimuli, output templates, an end-to-end example, safety boundaries, source attribution, and automated package checks.
+It is not a loose prompt collection. It is a complete, inspectable flow with a neutral item bank, bundled image stimuli, output templates, an end-to-end example, safety boundaries, and source attribution.
 
 > Better context for AI. Deeper self-understanding for people.
 
@@ -97,7 +96,6 @@ The cards above are fictional design examples. Read the complete fictional sessi
 ```bash
 git clone https://github.com/1zhangyy1/storylens-reading-skill.git
 cd storylens-reading-skill
-npm test
 ```
 
 ### 2. Add it to your AI environment
@@ -130,7 +128,6 @@ storylens-reading-skill/
 ├── assets/
 │   ├── brand/                   # StoryLens brand assets
 │   └── images/                  # Stimuli and sample cards
-├── scripts/check.mjs            # Package validation
 └── ATTRIBUTIONS.md              # Third-party image sources
 ```
 
@@ -141,8 +138,7 @@ Core design choices:
 - cross-prompt evidence over isolated details;
 - explicit separation of observation, hypothesis, and uncertainty;
 - local assets for a portable experience;
-- source and license metadata kept with the package;
-- automated checks for file integrity, JSON shape, image paths, and obvious secrets.
+- source and license metadata kept with the skill.
 
 ## Use It To
 
@@ -172,13 +168,7 @@ This repository is a portable set of files. It does not require an account, anal
 
 Actual answer handling depends on the AI environment where the skill is run. Users should understand that environment's storage and privacy terms before sharing sensitive material.
 
-## Development
-
-Run the package checks before opening a pull request:
-
-```bash
-npm test
-```
+## Contributing
 
 Contributions are welcome. Start with [`CONTRIBUTING.md`](./CONTRIBUTING.md), report sensitive issues through [`SECURITY.md`](./SECURITY.md), and review release notes in [`CHANGELOG.md`](./CHANGELOG.md).
 
